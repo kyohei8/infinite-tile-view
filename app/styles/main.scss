@@ -1,0 +1,21 @@
+// bower:scss
+@import "bower_components/sass-mediaqueries/_media-queries.scss";
+// endbower
+
+@import './modules/_sprite';
+
+@include screen(320px, 640px) {
+  h1{
+    color: red;
+  }
+}
+
+.sprite-test{
+  @include retina-sprite($github-group);
+}
+
+body {
+  background: #fafafa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}

@@ -1,0 +1,13 @@
+import './gulp/tasks/styles';
+import './gulp/tasks/lint';
+import './gulp/tasks/html';
+import './gulp/tasks/clean';
+import './gulp/tasks/images';
+import './gulp/tasks/fonts';
+import './gulp/tasks/extras';
+import './gulp/tasks/serve';
+import './gulp/tasks/wiredep';
+import './gulp/tasks/default';
+import './gulp/tasks/js';
+import './gulp/tasks/sprite';
+import './gulp/tasks/build';
